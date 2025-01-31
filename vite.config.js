@@ -95,6 +95,7 @@ export default defineConfig({
       '@configured-variables': fileURLToPath(new URL('./resources/styles/variables/_template.scss', import.meta.url)),
       '@db': fileURLToPath(new URL('./resources/js/plugins/fake-api/handlers/', import.meta.url)),
       '@api-utils': fileURLToPath(new URL('./resources/js/plugins/fake-api/utils/', import.meta.url)),
+      '@components': fileURLToPath(new URL('./resources/js/components/', import.meta.url)),
     },
   },
   build: {

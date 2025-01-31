@@ -1,5 +1,5 @@
 <script setup>
-import navItems from '@/navigation/vertical'
+import navItems from '@/navigation'
 import { themeConfig } from '@themeConfig'
 
 // Components
